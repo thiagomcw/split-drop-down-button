@@ -13,7 +13,7 @@
 
 Aguarde o processo de build chegar até o fim.
 
-- Acesse no navegador: [http://localhost:801](http://localhost:801);
+Acesse no navegador: [http://localhost:801](http://localhost:801);
 
 ## Testes
 

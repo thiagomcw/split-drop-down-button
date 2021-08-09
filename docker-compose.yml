@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+
+  node:
+    container_name: 'Split-Drop-Down-Node'
+    build: .docker/node
+    volumes:
+      - '.:/var/www/html/split-drop-down'
+    ports:
+      - '801:8080'
+    command: >
+      bash -c "yarn install && yarn serve"
